@@ -1,0 +1,15 @@
+/* basic.css */
+
+html, body{
+  width:100%; height:auto;
+  color:#333;
+  /* font-size:19px; */
+  overflow-x: hidden;
+}
+
+#wrap {
+  width:100%; height:auto;
+  min-width:320px;
+}
+
+
