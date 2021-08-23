@@ -1,0 +1,7 @@
+/* resume.css */
+
+@import url("../common/basic.css");
+@import url("./smartphone.css");
+@import url("./tablet.css");
+@import url("./laptop.css");
+@import url("./pc.css");

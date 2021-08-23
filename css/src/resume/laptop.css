@@ -1,0 +1,9 @@
+/* laptop.css */
+
+#wrap {
+  height:800px;
+  background-image:url("../../../img/resume/resume_blind.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
