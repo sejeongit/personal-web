@@ -1,0 +1,102 @@
+/* laptop.css */
+
+#wrap {
+  width:100%; height:auto; min-height:800px;
+  background-color:#9873ff;
+}
+
+h1 {
+  width:100%; height:auto;
+  padding-top:100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px; font-weight: 600;
+  color:#fff;
+  text-align: center;
+}
+
+dl {
+  width:768px; height:auto;
+  margin:auto; margin-top:70px;
+}
+
+dt {
+  position:relative; z-index: 1;
+  width:100%; height:100px;
+  background-color:#e9e6ff;
+  /* border-bottom:2px solid #9873ff; box-sizing: border-box; */
+  font-family: 'Montserrat', sans-serif;
+  font-size:30px; font-weight: 600;
+  color:#773df6;
+  text-align:center;
+  line-height: 100px;
+  box-shadow: 4px 4px 10px rgba(48, 9, 9, 0.2);
+}
+
+dd {
+  width:100%; height:350px;
+  background-color:#e9e6ff;
+}
+
+dd .mockup {
+  float:left;
+  width:330px; height:250px;
+  margin-left:30px; margin-top:44px;
+  background-color:#fff;
+}
+
+dd .content {
+  float:left;
+  width:auto; height:auto;
+  margin-left:60px; margin-top:54px;
+}
+
+
+
+.list {
+  width:auto; height:auto;
+  margin-bottom:14px;
+}
+
+.title {
+  margin-bottom:12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.subtitle {
+  margin-bottom: 34px;
+  font-family: 'AppleSDGothicNeoM00';
+  font-size: 17px;
+}
+
+.program { margin-bottom:34px;}
+
+.link {
+  float:left;
+  width:100px; height:40px;
+  border: 1px solid #773df6; box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  line-height: 40px;
+}
+
+.process {
+  margin-left:30px;
+}
+
+.link a {
+  display:block;
+  width:100%; height:100%;
+}
+
+.link a:hover {
+  background-color:#773df6;
+  color:#fff;
+  transition:all 150ms ease;
+}
+
+.link a:focus {
+  outline:2px solid #773df6;
+  font-weight: 500;
+}
