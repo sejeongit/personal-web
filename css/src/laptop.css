@@ -7,7 +7,7 @@
 
 h1 {
   width:100%; height:auto;
-  padding-top:100px;
+  padding-top:70px;
   font-family: 'Montserrat', sans-serif;
   font-size: 55px; font-weight: 600;
   color:#fff;
@@ -16,14 +16,13 @@ h1 {
 
 dl {
   width:768px; height:auto;
-  margin:auto; margin-top:70px;
+  margin:auto; margin-top:80px;
 }
 
 dt {
   position:relative; z-index: 1;
   width:100%; height:100px;
   background-color:#e9e6ff;
-  /* border-bottom:2px solid #9873ff; box-sizing: border-box; */
   font-family: 'Montserrat', sans-serif;
   font-size:30px; font-weight: 600;
   color:#773df6;
@@ -39,15 +38,19 @@ dd {
 
 dd .mockup {
   float:left;
-  width:330px; height:250px;
-  margin-left:30px; margin-top:44px;
-  background-color:#fff;
+  width:360px; height:250px;
+  margin-left:22px; margin-top:50px;
+  background-image:url("../../img/web_portfolio/illycoffee_mockup_shadow_none.png");
+  background-repeat:no-repeat;
+  background-size:180%;
+  background-position:center;
+
 }
 
 dd .content {
   float:left;
   width:auto; height:auto;
-  margin-left:60px; margin-top:54px;
+  margin-left:40px; margin-top:54px;
 }
 
 
