@@ -2,7 +2,7 @@
 
 html, body{
   width:100%; height:auto;
-  font-family: 'AppleSDGothicNeoR00';
+  font-family: 'AppleSDGothicNeoR00', sans-serif;
   font-size:16px;
   color:#333;
   overflow-x: hidden;
