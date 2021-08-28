@@ -1,6 +1,6 @@
 /* web_portfolio.css */
 
-@import url("./common/basic.css");
+@import url("../common/basic.css");
 @import url("./smartphone.css");
 @import url("./tablet.css");
 @import url("./laptop.css");
