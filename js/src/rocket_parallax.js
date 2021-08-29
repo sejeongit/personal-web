@@ -30,7 +30,7 @@ win.on('scroll', function(e){
     percentScroll = parseInt(findScroll / winH * 100);
     per = percentScroll;
     if (percentScroll < 0){ per = 0;} else if (percentScroll > 100){ per = 100; }
-    rocket.stop().animate({marginTop: -per/3 + 'px'}, 300 );
+    rocket.stop().animate({marginTop: -per/2 + 'px'}, 200 );
     // rocket.css({transform:'translate(' + -per + '%)', transition:'all 1000ms linear'});
   }
 });
