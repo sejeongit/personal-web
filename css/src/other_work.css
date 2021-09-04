@@ -1,0 +1,7 @@
+/* other_work.css */
+
+@import url("./common/basic.css");
+@import url("./other_work/smartphone.css");
+@import url("./other_work/tablet.css");
+@import url("./other_work/laptop.css");
+@import url("./other_work/pc.css");

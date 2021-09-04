@@ -62,20 +62,20 @@ li:hover .curtain {
 }
 
 .imitation_01 {
-  background-image:url("../../../img/other_work/imitation_face.jpg");
+  background-image:url("../../../img/imitation_face.jpg");
 }
 .imitation_02 {
-  background-image: url("../../../img/other_work/imitation_wizard.jpg");
+  background-image: url("../../../img/imitation_wizard.jpg");
   background-size:120%;
   background-position:40% 8%;
 }
 .work_01 {
-  background-image: url("../../../img/other_work/cha_man_knight.jpg");
+  background-image: url("../../../img/cha_man_knight.jpg");
   background-size:110%;
   background-position:55% 8%;
 }
 .work_02 {
-  background-image: url("../../../img/other_work/ui_shop.jpg");
+  background-image: url("../../../img/ui_shop.jpg");
 }
 
 /* div span {

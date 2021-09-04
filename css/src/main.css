@@ -1,0 +1,7 @@
+/* main.css */
+
+@import url("./common/basic.css");
+@import url("./main/smartphone.css");
+@import url("./main/tablet.css");
+@import url("./main/laptop.css");
+@import url("./main/pc.css");

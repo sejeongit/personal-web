@@ -1,0 +1,7 @@
+/* web_portfolio.css */
+
+@import url("./common/basic.css");
+@import url("./web_portfolio/smartphone.css");
+@import url("./web_portfolio/tablet.css");
+@import url("./web_portfolio/laptop.css");
+@import url("./web_portfolio/pc.css");
