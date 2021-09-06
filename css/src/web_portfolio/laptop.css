@@ -5,6 +5,10 @@
   background-color:#9873ff;
 }
 
+section {
+  width:100%; height:auto;
+}
+
 h2 {
   width:100%; height:auto;
   padding-top:70px;

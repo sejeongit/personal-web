@@ -1,0 +1,7 @@
+/* about_me.css */
+
+@import url("./common/basic.css");
+@import url("./about_me/smartphone.css");
+@import url("./about_me/tablet.css");
+@import url("./about_me/laptop.css");
+@import url("./about_me/pc.css");
