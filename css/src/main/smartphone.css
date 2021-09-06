@@ -1,0 +1,203 @@
+/* smartphone.css */
+
+@media screen and (max-width:767px) {
+
+  /* basic --------------------------------------------- */
+
+ .image {
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+  background-size:100% auto;
+ }
+
+
+  /* #introBox ----------------------------------------- */
+  #introBox {
+    position:relative;
+    width:100%; min-width:320px; height:800px;
+    background:linear-gradient(#f6d58a, #9873ff);
+  }
+
+  .intro{
+    width:84%; height:auto;
+    margin:auto;
+    padding-top: 120px; box-sizing: border-box;
+  }
+
+  .intro dl {
+    position:relative; z-index:100;
+    width:100%; height:auto;
+    color:#fff;
+    /* text-align:center; */
+  }
+
+  .intro dt {
+    width:100%; height:auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px; font-weight: 600;
+    text-shadow: 2px 2px 5px #666;
+  }
+
+  .intro dd {
+    width:100%; height:auto;
+    margin-top: 40px;
+    font-family: 'AppleSDGothicNeoSB00';
+    font-size:20px;
+    line-height:1.5;
+    text-shadow: 1px 1px 3px #333;
+  }
+
+  .intro .inrto_icon {
+    width:148px; height:auto;
+  }
+
+  .inrto_icon a {
+    display: block;
+    float:left;
+    width: 36px; height:36px;
+    margin-right:20px; margin-top:50px;
+  }
+  .inrto_icon .email { background-image: url("../../../img/email.svg");}
+  .inrto_icon .github { 
+    background-position: auto 100%;
+    background-image: url("../../../img/git.svg");
+  }
+  .inrto_icon .blog { 
+    margin-right:0;
+    background-image: url("../../../img/comment.svg");
+  }
+
+  .email:hover {
+    background-image: url("../../../img/email_white.svg");
+    transition: all 300ms ease;
+  }
+  .github:hover {
+    background-image: url("../../../img/git_white.svg");
+    transition: all 300ms ease;
+  }
+  .blog:hover {
+    background-image: url("../../../img/comment_white.svg");
+    transition: all 300ms ease;
+  }
+
+
+  .rocket {
+    position:absolute; bottom: -50px; right:-90px; z-index:40;
+    width: 390px; height:390px;
+    background-image:url("../../../img/rocket.svg");
+  }
+
+  .planet_01 {
+    position:absolute; bottom: -70px; right:-100px; z-index:30;
+    width:230px; height:230px;
+    background-image:url("../../../img/rocket_planet.svg");
+  }
+
+  .star_03, .star_04, .meteor_01, .meteor_02 {
+    display:none;
+  }
+
+  .star_01{
+    position:absolute; top:60px; left:100px;
+    width:8px; height:8px;
+    background-image:url("../../../img/star.svg");
+  }
+
+  .star_02 {
+    position:absolute; top:420px; right:120px;
+    width:8px; height:8px;
+    background-image:url("../../../img/star.svg");
+  }
+
+
+  /* #portfolioBox -------------------------------- */
+  #portfolioBox {
+    position:relative;
+    width:100%; height:920px;
+    background:linear-gradient(#9873ff, #8c37ff);
+  }
+
+  .planet_02 {
+    display:none;
+  }
+
+  .portfolio_innerbox {
+    position:relative;
+    width:100%; height:100%;
+    overflow-y:hidden;
+  }
+
+  .portfolio_innerbox ul {
+    width:88%; height:auto;
+    margin:auto; margin-top:130px;
+  }
+
+  .portfolio_innerbox li {
+    width:100%; height:130px;
+    background-color:#e9e6ff;
+    box-shadow: 15px 15px 20px rgba(90,90,90,0.3);
+  }
+
+  .portfolio_innerbox li:nth-child(2) {
+    position:relative; z-index: 1;
+    box-shadow: 10px 10px 20px rgba(90,90,90,0.3);
+  }
+
+
+  .portfolio_innerbox li a {
+    display:block;
+    width:100%; height:100%;
+    color:#773df6;
+    font-family: 'Montserrat', sans-serif;
+    font-size:36px; font-weight: 600;
+    text-align:center;
+    line-height: 130px;
+  }
+
+  .portfolio_innerbox li a .arrow {
+    display:none;
+  }
+
+  .portfolio_innerbox li a:hover {
+    background-color:#773df6;
+    color:#fff;
+    font-size:38px;
+    transition:all 300ms ease;
+  }
+  .portfolio_innerbox li a:hover i {
+    background-image: url("../../../img/arrow_02_bright.svg");
+  }
+
+  .portfolio_innerbox .copyright {
+    width:88%; height:auto;
+    margin:auto;
+    margin-top: 60px;
+    font-size:15px;
+    color:#fff;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .portfolio_innerbox .copy_2nd { margin-top:10px;}
+
+  .saturn {
+    position:absolute; bottom:-50px; left:-120px; z-index: 10;
+    width:360px; height:250px;
+    background-image:url("../../../img/saturn.svg");
+  }
+  .meteor_03 {
+    position:absolute; top:10px; left:100px;
+    width:70px; height:70px;
+    background-image: url("../../../img/short_meteor.svg");
+  }
+
+  .star_07 {
+    position:absolute; bottom:130px; right:80px;
+    width:8px; height:8px;
+    background-image:url("../../../img/star.svg");
+  }
+
+  .star_05, .star_06, .star_08 {
+    display:none;
+  }
+
+}
