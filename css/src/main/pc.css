@@ -1,0 +1,235 @@
+/* pc.css */
+
+@media screen and (min-width:1600px){
+
+  /* basic --------------------------------------------- */
+
+  .pc_none { display: none;}
+
+  .image {
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-size:100% auto;
+  }
+
+  /* #introBox ----------------------------------------- */
+  #introBox {
+    position:relative;
+    width:100%; height:900px;
+    background:linear-gradient(#f6d58a, #9873ff);
+  }
+
+  .intro{
+    float:left;
+    width:570px; height:auto;
+    margin-left:140px;
+    padding-top: 232px; box-sizing: border-box;
+  }
+
+  .intro dl {
+    width:100%; height:auto;
+    color:#fff;
+  }
+
+  .intro dt {
+    width:100%; height:auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px; font-weight: 600;
+    text-shadow: 2px 2px 5px #666;
+  }
+
+  .intro dd {
+    width:100%; height:auto;
+    margin-top: 50px;
+    font-family: 'AppleSDGothicNeoSB00';
+    font-size:24px;
+    line-height:1.5;
+    text-shadow: 1px 1px 3px #333;
+  }
+
+  .intro .inrto_icon {
+    width:100%; height:auto;
+  }
+
+  .inrto_icon a {
+    display: block;
+    float:left;
+    width: 40px; height:40px;
+    margin-right:26px; margin-top:60px;
+  }
+  .email { background-image: url("../../../img/email.svg");}
+  .github { 
+    background-position: auto 100%;
+    background-image: url("../../../img/git.svg");}
+  .blog { background-image: url("../../../img/comment.svg");}
+
+  .email:hover {
+    background-image: url("../../../img/email_white.svg");
+    transition: all 300ms ease;
+  }
+  .github:hover {
+    background-image: url("../../../img/git_white.svg");
+    transition: all 300ms ease;
+  }
+  .blog:hover {
+    background-image: url("../../../img/comment_white.svg");
+    transition: all 300ms ease;
+  }
+
+
+  .rocket {
+    position:absolute; top: 150px; right:-20px; z-index:40;
+    width: 570px; height:570px;
+    background-image:url("../../../img/rocket.svg");
+  }
+
+  .planet_01 {
+    position:absolute; top: 380px; right:-150px; z-index:30;
+    width:500px; height:500px;
+    background-image:url("../../../img/rocket_planet.svg");
+  }
+
+  .star_01 {
+    position:absolute; top:120px; left:100px;
+    width:14px; height:14px;
+    background-image:url("../../../img/star.svg");
+  }
+  .star_02 {
+    position:absolute; top:90px; right:180px;
+    width:8px; height:8px;
+    background-image:url("../../../img/star.svg");
+  }
+  .star_03 {
+    position:absolute; top:190px; left:480px;
+    width:8px; height:8px;
+    background-image:url("../../../img/star.svg");
+  }
+  .star_04 {
+    position:absolute; bottom:100px; right:850px;
+    width:8px; height:8px;
+    background-image:url("../../../img/star.svg");
+  }
+
+  .meteor_01 {
+    position:absolute; top:520px; left:400px;
+    width:50px; height:50px;
+    background-image: url("../../../img/short_meteor.svg");
+  }
+  .meteor_02 {
+    position:absolute; top:30px; right:670px;
+    width:80px; height:80px;
+    background-image:url("../../../img/long_meteor.svg");
+  }
+
+
+
+  /* #portfolioBox -------------------------------- */
+  #portfolioBox {
+    position:relative;
+    width:100%; height:900px;
+    background:linear-gradient(#9873ff, #8c37ff);
+  }
+
+  .planet_02 {
+    position:absolute; top: -80px; left:-100px; z-index:20;
+    width:220px; height:220px;
+    background-image:url("../../../img/small_planet.svg");
+  }
+
+  .portfolio_innerbox {
+    position:relative;
+    width:100%; height:100%;
+    overflow-y:hidden;
+  }
+
+  .portfolio_innerbox ul {
+    float:right;
+    width:1050px; height:auto;
+    margin-top:130px;
+  }
+
+  .portfolio_innerbox li {
+    float:right;
+    width:900px; height:170px;
+    background-color:#e9e6ff;
+    box-shadow: 15px 15px 20px rgba(90,90,90,0.3);
+  }
+
+  .portfolio_innerbox li:nth-child(2) {
+    position:relative; z-index: 1;
+    width:1000px;
+    box-shadow: 10px 10px 20px rgba(90,90,90,0.3);
+  }
+
+
+  .portfolio_innerbox li a {
+    display:block;
+    width:100%; height:100%;
+    color:#773df6;
+    font-family: 'Montserrat', sans-serif;
+    font-size:55px; font-weight: 600;
+    line-height: 170px;
+  }
+
+  .portfolio_innerbox li a .arrow {
+    float:left;
+    width:50px; height:50px;
+    margin-top:60px; margin-left:70px; margin-right:50px;
+    background-image:url("../../../img/arrow_02.svg");
+  }
+
+  .portfolio_innerbox li a:hover {
+    background-color:#773df6;
+    color:#fff;
+    font-size:58px;
+    transition:all 300ms ease;
+  }
+  .portfolio_innerbox li a:hover i {
+    background-image: url("../../../img/arrow_02_bright.svg");
+  }
+
+  .portfolio_innerbox .copyright {
+    float:right;
+    width:100%; height:auto;
+    margin-top: 120px; margin-right:50px;
+    font-size:16px;
+    color:#fff;
+    text-align: right;
+  }
+
+  .portfolio_innerbox .copy_2nd {
+    margin-top:10px;
+  }
+
+  .saturn {
+    position:absolute; bottom:-50px; left:-120px; z-index: 10;
+    width:440px; height:300px;
+    background-image:url("../../../img/saturn.svg");
+  }
+  .meteor_03 {
+    position:absolute; top:100px; left:200px;
+    width:70px; height:70px;
+    background-image: url("../../../img/short_meteor.svg");
+  }
+  .star_05 {
+    position:absolute; top:280px; left:100px;
+    width:10px; height:10px;
+    background-image:url("../../../img/star.svg");
+  }
+  .star_06 {
+    position:absolute; top:300px; left:118px;
+    width:6px; height:6px;
+    background-image:url("../../../img/star.svg");
+  }
+  .star_07 {
+    position:absolute; bottom:130px; left:400px;
+    width:14px; height:14px;
+    background-image:url("../../../img/star.svg");
+  }
+  .star_08 {
+    position:absolute; bottom:160px; right:450px;
+    width:6px; height:6px;
+    background-image:url("../../../img/star.svg");
+  }
+
+}
