@@ -19,6 +19,7 @@ tabBtn.on('focus', function(e){
   var liEq = tabLi.eq( _i );
   liEq.addClass('act');
   liEq.siblings().removeClass('act');
+  
   var conEq = tabContent.eq( _i );
   conEq.show();
   conEq.siblings().hide();
