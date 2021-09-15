@@ -1,10 +1,11 @@
-/* laptop.css */
+/* smartphone.css */
 
-@media screen and (min-width:1280px) and (max-width:1599px) {
-  
+@media screen and (max-width:767px) {
+
   #wrap{
-    width:100%; height:auto; min-height:800px;
-    padding-bottom: 100px;
+    width:100%; min-width:320px;
+    height:auto; min-height:800px;
+    padding-bottom: 150px;
     background-color:#9873ff;
   }
   
@@ -12,25 +13,21 @@
     width:100%; height:auto;
     padding-top:70px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 55px; font-weight: 600;
+    font-size: 48px; font-weight: 600;
     color:#fff;
     text-align: center;
   }
   
   ul {
-    width:1000px; height: auto;
-    margin:auto; margin-top:30px;
+    width:90vw; height: auto;
+    margin:auto; margin-top:80px;
   }
   
   li {
-    float:left;
     position:relative;
-    width:300px; height:300px;
-    margin-left:50px; margin-top:50px;
+    width:80vw; height:80vw;
+    margin:auto; margin-top:50px;
   }
-  
-  li:first-child, li:nth-child(4)
-  { margin-left:0; }
   
   li:hover .curtain {
     opacity:1;
@@ -80,8 +77,4 @@
     background-image: url("../../../img/ui_shop.jpg");
   }
   
-
 }
-
-
-

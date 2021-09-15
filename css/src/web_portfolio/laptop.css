@@ -94,6 +94,10 @@ dd .content {
 
 .program { margin-bottom:34px;}
 
+.link_area {
+  width:230px; height:40px;
+}
+
 .link {
   float:left;
   width:100px; height:40px;
