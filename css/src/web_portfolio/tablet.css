@@ -1,0 +1,125 @@
+/* tablet.css */
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+
+  #wrap {
+    width:100%; height:auto; min-height:800px;
+    background-color:#9873ff;
+  }
+  
+  section {
+    width:100%; height:auto;
+  }
+  
+  h2 {
+    width:100%; height:auto;
+    padding-top:70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px; font-weight: 600;
+    color:#fff;
+    text-align: center;
+  }
+  
+  dl {
+    width:720px; height:auto;
+    margin:auto; margin-top:80px;
+  }
+  
+  dt {
+    position:relative; z-index: 1;
+    width:100%; height:100px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 10px rgba(48, 9, 9, 0.3);
+  }
+  dt:first-of-type{ margin-top:0; }
+  
+  dt button {
+    width:100%; height:100%;
+    background-color:#e9e6ff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px; font-weight: 600;
+    color:#773df6;
+    text-align:center;
+    line-height: 100px;
+  }
+  dt button:hover {
+    background-color:#773df6;
+    color:#fff;
+    transition:all 200ms ease;
+  }
+  
+  dd {
+    display:none;
+    width:100%; height:auto;
+    padding-top:50px; padding-bottom:66px;
+    box-sizing:border-box;
+    background-color:#e9e6ff;
+  }
+  
+  dd .mockup {
+    width:600px; height:340px;
+    margin:auto; 
+    background-repeat:no-repeat;
+    background-size:180%;
+    background-position:50% 48%;
+  }
+  
+  .mockup_01 {
+    background-image:url("../../../img/illycoffee_mockup_shadow_none.png");
+  }
+  
+  dd .content {
+    width:270px; height:auto;
+    margin:auto; margin-top: 10px;
+  }
+  
+  
+  .list {
+    width:270px; height:auto;
+    margin-bottom:14px;
+  }
+  
+  .title {
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+  }
+  
+  .subtitle {
+    margin-bottom: 34px;
+    font-family: 'AppleSDGothicNeoM00';
+    font-size: 17px;
+  }
+  
+  .program { margin-bottom:34px;}
+  
+  .link_area {
+    width:270px; height:40px;
+    margin:auto;
+  }
+  
+  .link {
+    float:left;
+    width:100px; height:40px;
+    border: 1px solid #773df6; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .process {
+    margin-left:30px;
+  }
+  
+  .link a {
+    display:block;
+    width:100%; height:100%;
+  }
+  .link a:hover {
+    background-color:#773df6;
+    color:#fff;
+    transition:all 150ms ease;
+  }
+  
+  }

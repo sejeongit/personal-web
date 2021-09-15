@@ -4,11 +4,13 @@
 
   /* basic --------------------------------------------- */
 
- .image {
-  background-repeat: no-repeat;
-  background-position:50% 50%;
-  background-size:100% auto;
- }
+  .pc_none { display: none;}
+
+  .image {
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-size:100% auto;
+  }
 
 
   /* #introBox ----------------------------------------- */
@@ -28,7 +30,6 @@
     position:relative; z-index:100;
     width:100%; height:auto;
     color:#fff;
-    /* text-align:center; */
   }
 
   .intro dt {
@@ -41,7 +42,7 @@
   .intro dd {
     width:100%; height:auto;
     margin-top: 40px;
-    font-family: 'AppleSDGothicNeoSB00';
+    font-family: 'AppleSDGothicNeoB00';
     font-size:22px;
     line-height:1.5;
     text-shadow: 1px 1px 3px #333;
